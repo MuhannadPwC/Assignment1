@@ -1,0 +1,189 @@
+<html>
+  <head>
+    <title>Assignment 1 - HTML part</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/Index.js"></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <nav>
+        <ul>
+          <li class="heading"><h1 class="myName">Muhannad Al-Omari</h1></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="./Csspart.html">CSS Project</a></li>
+          <li><a href="./Jspart.html">JavaScript Project</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- About Me -->
+    <section id="about">
+      <table>
+        <tbody>
+          <tr>
+            <td colspan="2" class="aboutme">
+              <h1 class="titles">About Me</h1>
+              <p>
+                I am a software engineer aspiring to expand my knowledge in
+                software development, all while learning how corporate pipelines
+                work and where I fit into the process. As well as help companies
+                grow through my existing and new acquired skills.
+              </p>
+              <p>
+                I am highly motivated, dedicated, and passionate and will
+                provide the best possible solutions to any problem.<br />
+                I am a problem solver, and adapt quickly to any situation. And I
+                am always learning and staying up-to-date with the latest
+                industry standards and technologies.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="skills">
+              <h1 class="titles">Skills</h1>
+              <ul class="skillslist">
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>NodeJs & ExpressJs</li>
+                <li>C# using the .NET framework</li>
+                <li>SQL</li>
+                <li>MongoDB</li>
+              </ul>
+            </td>
+            <td class="experience">
+              <h1 class="titles">Experience</h1>
+              <dl>
+                <dt>Princess Sumaya University for Technology:</dt>
+                <dd>- Obtained a Bachelor's Degree in Software Engineering</dd>
+                <dd>
+                  - Took many courses relating to Software Development Life
+                  Cycles
+                </dd>
+                <dt>Umniah:</dt>
+                <dd>- Trained in building, editing, and managing APIs</dd>
+                <dd>
+                  - Developed a PrizeWheel webpage using ASP.NET and JavaScript
+                </dd>
+                <dd>
+                  - Created a File Organizing Worker Service that organizes
+                  files in a folder based on their date, month and year
+                </dd>
+              </dl>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h1 class="projects">Projects</h1>
+      <div class="d-flex">
+        <div class="container">
+          <img src="./imgs/eShop.jpeg" alt="eShop webpage" class="eshop" />
+        </div>
+        <div class="container">
+          <img
+            src="./imgs/eshopProducts.jpeg"
+            alt="eShop Products"
+            class="product"
+          />
+        </div>
+      </div>
+      <h1 class="descriptiontitle">eShop Alpha Build</h1>
+      <p class="description">
+        During my training at Umniah, I was informed that the company uses C#
+        and the .NET framework. <br />
+        This project was my first time using the .NET framework. I was tasked
+        with creating a simple eShop. <br />
+        This eShop was made using the ASP.NET MVC pattern with MSSQL for the
+        Database, as well as, Bootstrap and CSS for styling the page. <br />
+        I have not completed this project, however, this was a great start on
+        learning the intricacies of C#, Database Design and webpage design.<br />
+      </p>
+      <hr />
+      <h1 class="descriptiontitle">PrizeWheel</h1>
+      <div class="container">
+        <img src="./imgs/PrizeWheel.png" alt="PrizeWheel webpage" />
+      </div>
+      <p class="description">
+        This simple webpage was a fun project to work on. It encapsulates many
+        avenues of Full-Stack Development and the Software Development Life
+        Cycle. <br />
+        I discovered how PrizeWheels calculate the odds of what you get from
+        them, and how to incorporate it into software. <br />
+        Using a JavaScript library called WinWheelJs, I was able to design the
+        wheel and have it spin and show the users the prize they won.
+      </p>
+      <hr />
+      <h1 class="descriptiontitle">PwC MapAPI Interview Assessment</h1>
+      <div class="container">
+        <img src="./imgs/mapapi.png" alt="eShop webpage" class="leftimg" />
+        <img
+          src="./imgs/mapapiloading.png"
+          alt="eShop Products"
+          class="rightimg"
+        />
+      </div>
+      <p class="description">
+        I developed this project as my submission for the PwC technical
+        assessment. <br />
+        It is a basic webpage with a map and a search bar, and when you type a
+        city name in the search bar and click search, <br />
+        the map loads and positions you directly on that city, and also informs
+        you if the city was not found. <br />
+        This project was so much fun as I was able to use my skills with APIs,
+        JavaScript and Ajax <br />
+        to build a web page I am proud of. <br />
+        This also helped me learn how to create a better user experience by
+        creating a loading screen for when the map takes some time to render.
+      </p>
+    </section>
+
+    <!-- Contact -->
+    <footer id="contact">
+      <h1 class="contacttitle">Contact</h1>
+      <div class="d-flex">
+        <div class="container">
+          <h3>
+            <a href="mailto:mohannad.alumari@gmail.com"
+              ><img src="./svgs/email.svg" alt="email" class="leftsvg" />:
+              mohannad.alumari@gmail.com</a
+            >
+          </h3>
+          <h3>
+            <a href="tel:+962799675662"
+              ><img src="./svgs/phone.svg" alt="phone" class="leftsvg" />:
+              +962799675662</a
+            >
+          </h3>
+        </div>
+        <div class="container">
+          <h3>
+            <a
+              href="https://jo.linkedin.com/in/muhannad-al-omari-129437238"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="./svgs/linkedin.svg" alt="linkedin" class="rightsvg" />: Muhannad
+              Al-Omari</a
+            >
+          </h3>
+          <h3>
+            <a
+              href="https://github.com/MohannadOmari"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="./svgs/github.svg" alt="github" class="rightsvg" />: MohannadOmari</a
+            >
+          </h3>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
