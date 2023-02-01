@@ -12,7 +12,7 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #960202;
+  background-color: #d85604;
 }
 
 header {
@@ -41,7 +41,7 @@ nav li a {
 }
 
 nav li a:hover:not(.active) {
-  background-color: #6a1119;
+  background-color: rgb(50, 50, 50);
 }
 
 section h1,
@@ -85,7 +85,7 @@ footer {
   position: relative;
   bottom: 0;
   width: 100%;
-  background-color: #960202;
+  background-color: #d85604;
   padding-top: 4px;
   padding-bottom: 5px;
 }
