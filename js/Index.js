@@ -1,7 +1,7 @@
 const images = [
-  "./imgs/traveller.jpeg",
-  "./imgs/space.jpeg",
-  "./imgs/hellmouth.webp",
+  "../imgs/traveller.jpeg",
+  "../imgs/space.jpeg",
+  "../imgs/hellmouth.webp",
 ];
 
 let count = 0;
@@ -41,4 +41,4 @@ function scrollNext() {
     count++;
   }
   shownImage.src = images[count];
-};
+}
